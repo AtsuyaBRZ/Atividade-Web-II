@@ -3,7 +3,7 @@ import TaskItem from './TaskItem';
 
 export default function TaskList({ tarefas, onToggleStatus, onDelete }) {
   return (
-    <ul style={{ listStyle: 'none', padding: 0 }}>
+    <ul>
       {tarefas.map(tarefa => (
         <TaskItem
           key={tarefa.id}

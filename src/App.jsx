@@ -28,7 +28,7 @@ export default function App() {
   const pendentes = total - concluidas;
 
   return (
-    <div style={{ maxWidth: '500px', margin: '30px auto', fontFamily: 'sans-serif', padding: '0 15px' }}>
+    <div>
       <Header 
         titulo="Gerenciador Acadêmico" 
         descricao="Organize suas entregas, trabalhos e revisões de forma simples." 
